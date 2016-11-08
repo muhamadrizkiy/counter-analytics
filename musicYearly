@@ -34,8 +34,7 @@ var mapper = function () {
         count: 1
     };
     var day = new Date(this.ts.getFullYear(),
-        this.ts.getMonth(),
-        0,0,0,0,0)
+        0,0,0,0,0,0)
     emit(day, value);
 };
 
