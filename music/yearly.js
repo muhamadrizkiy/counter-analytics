@@ -2,7 +2,7 @@ var moment = require('moment');
 var mongojs = require('mongojs');
 
 // ('database name',['source DB', 'result DB'])
-var db = mongojs('mapReduceDB', ['time', 'yearly_music']);
+var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'yearly_music']);
 
 // get arguments value
 var args = process.argv[2];
@@ -30,7 +30,7 @@ var mapper = function () {
         count: 1,
         data : {}
     };
-    value.data[this.contentId] = {
+    value.data[this.contentId.valueOf()] = {
         count: 1
     };
     var day = new Date(this.ts.getFullYear(),
@@ -65,7 +65,7 @@ var reducer = function(day, values) {
 }
 
 // map reduce
-db.time.mapReduce(
+db.data.mapReduce(
     mapper,
     reducer,
     {

@@ -2,7 +2,7 @@ var moment = require('moment');
 var mongojs = require('mongojs');
 
 // ('database name',['source DB', 'result DB'])
-var db = mongojs('mapReduceDB', ['time', 'hourly_album']);
+var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'hourly_album']);
 
 // get arguments value
 var args = process.argv[2];
@@ -31,7 +31,7 @@ var mapper = function () {
         count: 1,
         data : {}
     };
-    value.data[this.albumId] = {
+    value.data[this.albumId.valueOf()] = {
         count: 1
     };
     var hour = new Date(this.ts.getFullYear(),
@@ -69,17 +69,18 @@ var reducer = function(day, values) {
 }
 
 // map reduce
-db.time.mapReduce(
+db.data.mapReduce(
     mapper,
     reducer,
     {
-        out: "hourly_album"
-        // query: {
-        //     ts: {
-        //         $gte: new Date(newTimeA),
-        //         $lt: new Date(newTimeB)
-        //     }
-        // }
+        out: "hourly_album",
+        query: {
+            // ts: {
+            //     $gte: new Date(newTimeA),
+            //     $lt: new Date(newTimeB)
+            // }
+            contentType : 'Music'
+        }
     }
 );
 
