@@ -77,6 +77,7 @@ db.data.mapReduce(
             //     $gte: new Date(newTimeA),
             //     $lt: new Date(newTimeB)
             // }
+            // current: {$gte:30000},
             contentType : 'Music'
         }
     }

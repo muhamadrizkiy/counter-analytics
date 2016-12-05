@@ -56,13 +56,13 @@ var reducer = function(day, values) {
             result.data[contentId].count += values[i].data[contentId].count;
         }
     }
-    // for (contentId in result.data) {
-    //     var tmp = {};
-    //     tmp.contentId = contentId;
-    //     tmp.count = result.data[contentId].count;
-    //     datas.push(tmp);
-    // }
-    // result.data = datas;
+    for (contentId in result.data) {
+        var tmp = {};
+        tmp.contentId = contentId;
+        tmp.count = result.data[contentId].count;
+        datas.push(tmp);
+    }
+    result.data = datas;
     return result;
 }
 
@@ -77,8 +77,10 @@ db.data.mapReduce(
             //     $gte: new Date(newTimeA),
             //     $lt: new Date(newTimeB)
             // }
+            // current: {$gte:30000},
             contentType : 'Music',
-            membershipStatus : 'free'
+            membershipStatus : 'free',
+
         }
     }
 );

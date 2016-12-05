@@ -2,79 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a565e7e6-6c4e-4803-8db4-3e1ee078516f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/all/album/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/all/album/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/all/album/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/all/artist/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/all/artist/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/album/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/artist/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/artist/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/music/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/music/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/music/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/music/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/playlist/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/playlist/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/playlist/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/playlist/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio-content/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio-content/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio-content/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio-content/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/free/radio/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/album/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/album/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/album/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/album/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/artist/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/artist/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/artist/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/artist/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/music/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/music/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/music/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/music/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/playlist/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/playlist/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/playlist/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/playlist/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio-content/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio-content/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio-content/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio-content/yearly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio/hourly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio/monthly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/premium/radio/yearly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album/daily.js" afterPath="$PROJECT_DIR$/source/free/album/daily.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album/hourly.js" afterPath="$PROJECT_DIR$/source/all/album/hourly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album/monthly.js" afterPath="$PROJECT_DIR$/source/free/album/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album/yearly.js" afterPath="$PROJECT_DIR$/source/free/album/yearly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/artist/daily.js" afterPath="$PROJECT_DIR$/source/free/artist/daily.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/artist/hourly.js" afterPath="$PROJECT_DIR$/source/free/artist/hourly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/artist/monthly.js" afterPath="$PROJECT_DIR$/source/all/artist/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/artist/yearly.js" afterPath="$PROJECT_DIR$/source/all/artist/yearly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/music/daily.js" afterPath="$PROJECT_DIR$/source/all/music/daily.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/music/hourly.js" afterPath="$PROJECT_DIR$/source/all/music/hourly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/music/monthly.js" afterPath="$PROJECT_DIR$/source/all/music/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/music/yearly.js" afterPath="$PROJECT_DIR$/source/all/music/yearly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/playlist/daily.js" afterPath="$PROJECT_DIR$/source/all/playlist/daily.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/playlist/hourly.js" afterPath="$PROJECT_DIR$/source/all/playlist/hourly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/playlist/monthly.js" afterPath="$PROJECT_DIR$/source/all/playlist/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/playlist/yearly.js" afterPath="$PROJECT_DIR$/source/all/playlist/yearly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio-content/daily.js" afterPath="$PROJECT_DIR$/source/all/radio-content/daily.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio-content/hourly.js" afterPath="$PROJECT_DIR$/source/all/radio-content/hourly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio-content/monthly.js" afterPath="$PROJECT_DIR$/source/all/radio-content/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio-content/yearly.js" afterPath="$PROJECT_DIR$/source/all/radio-content/yearly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio/daily.js" afterPath="$PROJECT_DIR$/source/all/radio/daily.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio/hourly.js" afterPath="$PROJECT_DIR$/source/all/radio/hourly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio/monthly.js" afterPath="$PROJECT_DIR$/source/all/radio/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/radio/yearly.js" afterPath="$PROJECT_DIR$/source/all/radio/yearly.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/album/daily.js" afterPath="$PROJECT_DIR$/source/all/album/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/album/hourly.js" afterPath="$PROJECT_DIR$/source/all/album/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/album/monthly.js" afterPath="$PROJECT_DIR$/source/all/album/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/album/yearly.js" afterPath="$PROJECT_DIR$/source/all/album/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/artist/daily.js" afterPath="$PROJECT_DIR$/source/all/artist/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/artist/hourly.js" afterPath="$PROJECT_DIR$/source/all/artist/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/artist/monthly.js" afterPath="$PROJECT_DIR$/source/all/artist/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/artist/yearly.js" afterPath="$PROJECT_DIR$/source/all/artist/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/music/daily.js" afterPath="$PROJECT_DIR$/source/all/music/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/music/hourly.js" afterPath="$PROJECT_DIR$/source/all/music/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/music/monthly.js" afterPath="$PROJECT_DIR$/source/all/music/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/all/music/yearly.js" afterPath="$PROJECT_DIR$/source/all/music/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/album/daily.js" afterPath="$PROJECT_DIR$/source/free/album/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/album/hourly.js" afterPath="$PROJECT_DIR$/source/free/album/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/album/monthly.js" afterPath="$PROJECT_DIR$/source/free/album/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/album/yearly.js" afterPath="$PROJECT_DIR$/source/free/album/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/artist/daily.js" afterPath="$PROJECT_DIR$/source/free/artist/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/artist/hourly.js" afterPath="$PROJECT_DIR$/source/free/artist/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/artist/monthly.js" afterPath="$PROJECT_DIR$/source/free/artist/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/artist/yearly.js" afterPath="$PROJECT_DIR$/source/free/artist/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/music/daily.js" afterPath="$PROJECT_DIR$/source/free/music/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/music/hourly.js" afterPath="$PROJECT_DIR$/source/free/music/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/music/monthly.js" afterPath="$PROJECT_DIR$/source/free/music/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/free/music/yearly.js" afterPath="$PROJECT_DIR$/source/free/music/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/album/daily.js" afterPath="$PROJECT_DIR$/source/premium/album/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/album/hourly.js" afterPath="$PROJECT_DIR$/source/premium/album/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/album/monthly.js" afterPath="$PROJECT_DIR$/source/premium/album/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/album/yearly.js" afterPath="$PROJECT_DIR$/source/premium/album/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/artist/daily.js" afterPath="$PROJECT_DIR$/source/premium/artist/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/artist/hourly.js" afterPath="$PROJECT_DIR$/source/premium/artist/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/artist/monthly.js" afterPath="$PROJECT_DIR$/source/premium/artist/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/artist/yearly.js" afterPath="$PROJECT_DIR$/source/premium/artist/yearly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/music/daily.js" afterPath="$PROJECT_DIR$/source/premium/music/daily.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/music/hourly.js" afterPath="$PROJECT_DIR$/source/premium/music/hourly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/music/monthly.js" afterPath="$PROJECT_DIR$/source/premium/music/monthly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/premium/music/yearly.js" afterPath="$PROJECT_DIR$/source/premium/music/yearly.js" />
     </list>
     <ignored path="cyclone-counter-analytics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +61,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="hourly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/artist/hourly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monthly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/artist/monthly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yearly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/artist/yearly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/music/daily.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hourly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/music/hourly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monthly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/music/monthly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yearly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/premium/music/yearly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/free/music/daily.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yearly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/free/music/yearly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="hourly.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/free/music/hourly.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -115,18 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/music/daily.js" />
-        <option value="$PROJECT_DIR$/music/monthly.js" />
-        <option value="$PROJECT_DIR$/music/yearly.js" />
-        <option value="$PROJECT_DIR$/album/hourly.js" />
-        <option value="$PROJECT_DIR$/artist/daily.js" />
-        <option value="$PROJECT_DIR$/artist/hourly.js" />
-        <option value="$PROJECT_DIR$/artist/monthly.js" />
-        <option value="$PROJECT_DIR$/album/daily.js" />
-        <option value="$PROJECT_DIR$/album/monthly.js" />
-        <option value="$PROJECT_DIR$/album/yearly.js" />
-        <option value="$PROJECT_DIR$/artist/yearly.js" />
-        <option value="$PROJECT_DIR$/source/free/radio/daily.js" />
         <option value="$PROJECT_DIR$/source/free/radio/hourly.js" />
         <option value="$PROJECT_DIR$/source/free/radio/monthly.js" />
         <option value="$PROJECT_DIR$/source/free/radio/yearly.js" />
@@ -134,6 +176,26 @@
         <option value="$PROJECT_DIR$/source/premium/radio/hourly.js" />
         <option value="$PROJECT_DIR$/source/premium/radio/monthly.js" />
         <option value="$PROJECT_DIR$/source/premium/radio/yearly.js" />
+        <option value="$PROJECT_DIR$/source/free/radio-content/daily.js" />
+        <option value="$PROJECT_DIR$/source/free/radio-content/hourly.js" />
+        <option value="$PROJECT_DIR$/source/free/radio-content/monthly.js" />
+        <option value="$PROJECT_DIR$/source/premium/radio-content/daily.js" />
+        <option value="$PROJECT_DIR$/source/premium/radio-content/hourly.js" />
+        <option value="$PROJECT_DIR$/source/premium/radio-content/monthly.js" />
+        <option value="$PROJECT_DIR$/source/premium/radio-content/yearly.js" />
+        <option value="$PROJECT_DIR$/source/free/radio-content/yearly.js" />
+        <option value="$PROJECT_DIR$/source/all/album/daily.js" />
+        <option value="$PROJECT_DIR$/source/all/album/hourly.js" />
+        <option value="$PROJECT_DIR$/source/all/album/yearly.js" />
+        <option value="$PROJECT_DIR$/source/all/album/monthly.js" />
+        <option value="$PROJECT_DIR$/source/all/artist/daily.js" />
+        <option value="$PROJECT_DIR$/source/all/artist/hourly.js" />
+        <option value="$PROJECT_DIR$/source/all/artist/monthly.js" />
+        <option value="$PROJECT_DIR$/source/all/artist/yearly.js" />
+        <option value="$PROJECT_DIR$/source/all/music/daily.js" />
+        <option value="$PROJECT_DIR$/source/all/music/hourly.js" />
+        <option value="$PROJECT_DIR$/source/all/music/monthly.js" />
+        <option value="$PROJECT_DIR$/source/all/music/yearly.js" />
         <option value="$PROJECT_DIR$/source/free/album/daily.js" />
         <option value="$PROJECT_DIR$/source/free/album/hourly.js" />
         <option value="$PROJECT_DIR$/source/free/album/monthly.js" />
@@ -142,11 +204,9 @@
         <option value="$PROJECT_DIR$/source/free/artist/hourly.js" />
         <option value="$PROJECT_DIR$/source/free/artist/monthly.js" />
         <option value="$PROJECT_DIR$/source/free/artist/yearly.js" />
+        <option value="$PROJECT_DIR$/source/free/music/daily.js" />
         <option value="$PROJECT_DIR$/source/free/music/monthly.js" />
         <option value="$PROJECT_DIR$/source/free/music/yearly.js" />
-        <option value="$PROJECT_DIR$/source/free/radio-content/daily.js" />
-        <option value="$PROJECT_DIR$/source/free/radio-content/hourly.js" />
-        <option value="$PROJECT_DIR$/source/free/radio-content/monthly.js" />
         <option value="$PROJECT_DIR$/source/premium/album/daily.js" />
         <option value="$PROJECT_DIR$/source/premium/album/hourly.js" />
         <option value="$PROJECT_DIR$/source/premium/album/monthly.js" />
@@ -159,12 +219,6 @@
         <option value="$PROJECT_DIR$/source/premium/music/hourly.js" />
         <option value="$PROJECT_DIR$/source/premium/music/monthly.js" />
         <option value="$PROJECT_DIR$/source/premium/music/yearly.js" />
-        <option value="$PROJECT_DIR$/source/premium/radio-content/daily.js" />
-        <option value="$PROJECT_DIR$/source/premium/radio-content/hourly.js" />
-        <option value="$PROJECT_DIR$/source/premium/radio-content/monthly.js" />
-        <option value="$PROJECT_DIR$/source/premium/radio-content/yearly.js" />
-        <option value="$PROJECT_DIR$/source/free/radio-content/yearly.js" />
-        <option value="$PROJECT_DIR$/source/free/music/daily.js" />
         <option value="$PROJECT_DIR$/source/free/music/hourly.js" />
       </list>
     </option>
@@ -309,7 +363,7 @@
       <recent name="$PROJECT_DIR$/album" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.hourly">
+  <component name="RunManager" selected="Node.js.daily">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -363,7 +417,7 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="daily" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="daily.js" working-dir="$PROJECT_DIR$/source/premium/radio-content">
+    <configuration default="false" name="daily" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="daily.js" working-dir="$PROJECT_DIR$/source/free/music">
       <profiling v8-profiler-path="" />
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
         <profiling v8-profiler-path="" />
@@ -425,18 +479,18 @@
       <workItem from="1480402041151" duration="5563000" />
       <workItem from="1480644093878" duration="435000" />
       <workItem from="1480739636265" duration="4000" />
-      <workItem from="1480907943354" duration="2093000" />
+      <workItem from="1480907943354" duration="9916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66776000" />
+    <option name="totallyTimeSpent" value="74599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17791899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17791899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -471,90 +525,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/all/album/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/artist/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/album/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="18" selection-start-line="56" selection-start-column="4" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/music/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/music/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/artist/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/album/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/artist/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/all/artist/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/radio/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/radio/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/radio/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/free/playlist/monthly.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -590,69 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/album/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-779">
-          <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/album/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/album/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/artist/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/artist/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-764">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/artist/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/artist/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/music/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/music/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/free/playlist/daily.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -664,90 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/album/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/album/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="84" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/album/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/album/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/artist/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/artist/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/artist/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/artist/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/music/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/music/hourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/music/monthly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/premium/music/yearly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="84" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -776,14 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/free/album/daily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,18 +634,290 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/album/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/album/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/album/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/album/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/artist/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/artist/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/artist/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/artist/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/music/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/music/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/music/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/all/music/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/album/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/album/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/album/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/album/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/artist/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/artist/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/artist/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/artist/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/music/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/album/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/album/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/album/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/album/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/artist/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/artist/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/artist/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/artist/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/music/daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/music/hourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/music/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/premium/music/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/free/music/yearly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/free/music/daily.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/free/music/hourly.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
           <folding />
         </state>
       </provider>
