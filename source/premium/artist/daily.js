@@ -2,7 +2,7 @@ var moment = require('moment');
 var mongojs = require('mongojs');
 
 // ('database name',['source DB', 'result DB'])
-var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'monthly_album']);
+var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'daily_artist_premium']);
 
 // get arguments value
 var args = process.argv[2];
@@ -25,18 +25,18 @@ var newTimeB = timeB.toISOString();
 
 console.log(newTimeA,newTimeB);
 
-// data mapping
 var mapper = function () {
     var value = {
         count: 1,
         data : {}
     };
-    value.data[this.albumId.valueOf()] = {
+    value.data[this.artistId.valueOf()] = {
         count: 1
     };
     var day = new Date(this.ts.getFullYear(),
         this.ts.getMonth(),
-        0,0,0,0,0)
+        this.ts.getDate(),
+        0,0,0,0)
     emit(day, value);
 };
 
@@ -49,17 +49,17 @@ var reducer = function(day, values) {
     };
     var datas = [];
     for (i = 0; i < values.length; i++) {
-        var albumId;
+        var artistId;
         result.count += values[i].count;
-        for (albumId in values[i]['data']) {
-            result.data[albumId] = result.data[albumId] || {count: 0};
-            result.data[albumId].count += values[i].data[albumId].count;
+        for (artistId in values[i]['data']) {
+            result.data[artistId] = result.data[artistId] || {count: 0};
+            result.data[artistId].count += values[i].data[artistId].count;
         }
     }
-    for (albumId in result.data) {
+    for (artistId in result.data) {
         var tmp = {};
-        tmp.albumId = albumId;
-        tmp.albumId = result.data[albumId].count;
+        tmp.artistId = artistId;
+        tmp.count = result.data[artistId].count;
         datas.push(tmp);
     }
     result.data = datas;
@@ -71,19 +71,20 @@ db.data.mapReduce(
     mapper,
     reducer,
     {
-        out: "monthly_album",
+        out: "daily_artist_premium",
         query: {
             // ts: {
             //     $gte: new Date(newTimeA),
             //     $lt: new Date(newTimeB)
             // }
-            contentType : 'Music'
+            contentType : 'Music',
+            membershipStatus : 'premium'
         }
     }
 );
 
 // view output
-db.monthly_album.find(function (err, docs) {
+db.daily_artist_premium.find(function (err, docs) {
     if(err) console.log(err);
     console.log(docs);
 });

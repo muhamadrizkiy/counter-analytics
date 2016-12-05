@@ -2,7 +2,7 @@ var moment = require('moment');
 var mongojs = require('mongojs');
 
 // ('database name',['source DB', 'result DB'])
-var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'daily_album']);
+var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'yearly_music_free']);
 
 // get arguments value
 var args = process.argv[2];
@@ -25,19 +25,16 @@ var newTimeB = timeB.toISOString();
 
 console.log(newTimeA,newTimeB);
 
-// data mapping
 var mapper = function () {
     var value = {
         count: 1,
         data : {}
     };
-    value.data[this.albumId.valueOf()] = {
+    value.data[this.contentId.valueOf()] = {
         count: 1
     };
     var day = new Date(this.ts.getFullYear(),
-        this.ts.getMonth(),
-        this.ts.getDate(),
-        0,0,0,0)
+        0,0,0,0,0,0)
     emit(day, value);
 };
 
@@ -50,17 +47,17 @@ var reducer = function(day, values) {
     };
     var datas = [];
     for (i = 0; i < values.length; i++) {
-        var albumId;
+        var contentId;
         result.count += values[i].count;
-        for (albumId in values[i]['data']) {
-            result.data[albumId] = result.data[albumId] || {count: 0};
-            result.data[albumId].count += values[i].data[albumId].count;
+        for (contentId in values[i]['data']) {
+            result.data[contentId] = result.data[contentId] || {count: 0};
+            result.data[contentId].count += values[i].data[contentId].count;
         }
     }
-    for (albumId in result.data) {
+    for (contentId in result.data) {
         var tmp = {};
-        tmp.albumId = albumId;
-        tmp.albumId = result.data[albumId].count;
+        tmp.contentId = contentId;
+        tmp.count = result.data[contentId].count;
         datas.push(tmp);
     }
     result.data = datas;
@@ -72,19 +69,20 @@ db.data.mapReduce(
     mapper,
     reducer,
     {
-        out: "daily_album",
+        out: "yearly_music_free",
         query: {
             // ts: {
             //     $gte: new Date(newTimeA),
             //     $lt: new Date(newTimeB)
             // }
-            contentType : 'Music'
+            contentType : 'Music',
+            membershipStatus : 'free'
         }
     }
 );
 
 // view output
-db.daily_album.find(function (err, docs) {
+db.yearly_music_free.find(function (err, docs) {
     if(err) console.log(err);
     console.log(docs);
 });

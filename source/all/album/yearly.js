@@ -57,7 +57,7 @@ var reducer = function(day, values) {
     for (albumId in result.data) {
         var tmp = {};
         tmp.albumId = albumId;
-        tmp.albumId = result.data[albumId].count;
+        tmp.count = result.data[albumId].count;
         datas.push(tmp);
     }
     result.data = datas;

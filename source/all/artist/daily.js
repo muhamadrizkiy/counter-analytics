@@ -2,7 +2,7 @@ var moment = require('moment');
 var mongojs = require('mongojs');
 
 // ('database name',['source DB', 'result DB'])
-var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'hourly_artist']);
+var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'daily_artist']);
 
 // get arguments value
 var args = process.argv[2];
@@ -33,12 +33,11 @@ var mapper = function () {
     value.data[this.artistId.valueOf()] = {
         count: 1
     };
-    var hour = new Date(this.ts.getFullYear(),
+    var day = new Date(this.ts.getFullYear(),
         this.ts.getMonth(),
         this.ts.getDate(),
-        this.ts.getHours(),
-        0,0,0)
-    emit(hour, value);
+        0,0,0,0)
+    emit(day, value);
 };
 
 // reduce
@@ -60,7 +59,7 @@ var reducer = function(day, values) {
     for (artistId in result.data) {
         var tmp = {};
         tmp.artistId = artistId;
-        tmp.artistId = result.data[artistId].count;
+        tmp.count = result.data[artistId].count;
         datas.push(tmp);
     }
     result.data = datas;
@@ -72,7 +71,7 @@ db.data.mapReduce(
     mapper,
     reducer,
     {
-        out: "hourly_artist",
+        out: "daily_artist",
         query: {
             // ts: {
             //     $gte: new Date(newTimeA),
@@ -84,7 +83,7 @@ db.data.mapReduce(
 );
 
 // view output
-db.hourly_artist.find(function (err, docs) {
+db.daily_artist.find(function (err, docs) {
     if(err) console.log(err);
     console.log(docs);
 });

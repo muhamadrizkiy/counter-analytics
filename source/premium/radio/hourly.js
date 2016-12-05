@@ -1,8 +1,9 @@
 var moment = require('moment');
 var mongojs = require('mongojs');
+var ObjectId = require('mongodb').ObjectID;
 
 // ('database name',['source DB', 'result DB'])
-var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'monthly_artist']);
+var db = mongojs('localhost:57017/cyclone_statistic', ['data', 'daily_song']);
 
 // get arguments value
 var args = process.argv[2];
@@ -12,9 +13,9 @@ var date = moment(args);
 
 // substract time
 var myString = "01:00:00",
-    myStringParts = myString.split(':'),
-    hourDelta = myStringParts[0],
-    minuteDelta= myStringParts[1];
+	myStringParts = myString.split(':'),
+	hourDelta = myStringParts[0],
+	minuteDelta= myStringParts[1];
 var newDate = date.subtract({ hours: hourDelta, minutes: minuteDelta});
 
 // set time for query
@@ -30,13 +31,15 @@ var mapper = function () {
         count: 1,
         data : {}
     };
-    value.data[this.artistId.valueOf()] = {
+    value.data[this.contentId.valueOf()] = {
         count: 1
     };
-    var day = new Date(this.ts.getFullYear(),
+    var hour = new Date(this.ts.getFullYear(),
         this.ts.getMonth(),
-        0,0,0,0,0)
-    emit(day, value);
+        this.ts.getDate(),
+        this.ts.getHours(),
+        0,0,0)
+    emit(hour, value);
 };
 
 // reduce
@@ -48,42 +51,41 @@ var reducer = function(day, values) {
     };
     var datas = [];
     for (i = 0; i < values.length; i++) {
-        var artistId;
+        var contentId;
         result.count += values[i].count;
-        for (artistId in values[i]['data']) {
-            result.data[artistId] = result.data[artistId] || {count: 0};
-            result.data[artistId].count += values[i].data[artistId].count;
+        for (contentId in values[i]['data']) {
+            result.data[contentId] = result.data[contentId] || {count: 0};
+            result.data[contentId].count += values[i].data[contentId].count;
         }
     }
-    for (artistId in result.data) {
+    for (contentId in result.data) {
         var tmp = {};
-        tmp.artistId = artistId;
-        tmp.artistId = result.data[artistId].count;
+        tmp.contentId = contentId;
+        tmp.count = result.data[contentId].count;
         datas.push(tmp);
     }
     result.data = datas;
     return result;
 }
-
-
 // map reduce
-db.time.mapReduce(
-    mapper,
-    reducer,
-    {
-        out: "monthly_artist",
+db.data.mapReduce(
+	mapper,
+	reducer,
+	{
+	    out: "radio-daily",
         query: {
             // ts: {
             //     $gte: new Date(newTimeA),
             //     $lt: new Date(newTimeB)
-            // }
-            contentType : 'Music'
+            // },
+            contentType : 'Radio',
+            membershipStatus : 'premium'
         }
     }
 );
 
 // view output
-db.monthly_artist.find(function (err, docs) {
-    if(err) console.log(err);
-    console.log(docs);
+db.daily_song.find(function (err, docs) {
+	if(err) console.log(err);
+	console.log(docs);
 });
